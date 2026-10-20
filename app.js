@@ -2,22 +2,23 @@ import {DEFAULTS,PAGE_SIZE,filterRecords,dateText} from './filters.mjs';
 const $=selector=>document.querySelector(selector);
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let dataset,state={...DEFAULTS},limit=PAGE_SIZE;
-function link(source,primary=false){
+function link(source,primary=false,inquiry=false){
   const u=new URL(source.url);
   if(u.protocol!=='https:'||u.username||u.password)return '';
-  return `<a class="${primary?'official-link':'source-link'}" href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${primary?'Official call & application route':esc(source.title)} <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>`;
+  return `<a class="${primary?'official-link':'source-link'}" href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${primary?(inquiry?'Official inquiry guidelines':'Official call & application route'):esc(source.title)} <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>`;
 }
 function card(r){
   const d=r.deadline;
+  const inquiry=r.routeType==='inquiry';
   return `<article class="opportunity" id="${r.id}" data-id="${r.id}" aria-labelledby="title-${r.id}">
     <div class="card-main">
       <div class="program-cell"><div class="record-meta"><span class="public-topic">${esc(r.topic)}</span><span class="record-id">${r.id}</span></div><p class="sponsor">${esc(r.sponsor)}</p><h3 id="title-${r.id}">${esc(r.program)}</h3><p class="fit">${esc(r.summary)}</p></div>
       <div class="funding-cell"><h4>Funding & term <span class="field-date">· ${dateText(r.fundingCheckedDate||dataset.snapshotDate)}</span></h4><p>${esc(r.funding)}</p><h4 class="match-label">Match / cost share</h4><p class="match-text">${esc(r.match)}</p></div>
-      <div class="date-cell"><h4>Submission route at last check</h4><div class="deadline-item"><span class="date-basis ${d.kind}">${esc(d.label)}</span><strong class="deadline-date">${d.rolling&&!d.date?'Rolling / ongoing':dateText(d.date)}</strong><span class="deadline-stage">${esc(d.stage)}</span>${d.time?`<span class="deadline-time">${esc(d.time)}</span>`:''}</div>${r.fullApplicationDate?`<p class="full-date">Full application: ${dateText(r.fullApplicationDate)}</p>`:''}</div>
+      <div class="date-cell"><h4>Submission route at last check</h4><div class="deadline-item"><span class="date-basis ${d.kind}">${esc(d.label)}</span><strong class="deadline-date">${inquiry?'Rolling inquiry':d.rolling&&!d.date?'Rolling / ongoing':dateText(d.date)}</strong><span class="deadline-stage">${esc(d.stage)}</span>${d.time?`<span class="deadline-time">${esc(d.time)}</span>`:''}</div>${r.fullApplicationDate?`<p class="full-date">Full application: ${dateText(r.fullApplicationDate)}</p>`:''}</div>
     </div>
-    ${r.condition?`<p class="call-note conditional-note"><strong>Conditional route.</strong> ${esc(r.condition)}</p>`:''}
+    ${r.condition?`<p class="call-note conditional-note"><strong>${inquiry?'Conditional inquiry.':'Conditional route.'}</strong> ${esc(r.condition)}</p>`:''}
     ${r.notes.map(note=>`<p class="call-note">${esc(note)}</p>`).join('')}
-    <div class="card-bottom">${link(r.sources[0],true)}<span class="snapshot-status">Opening check: ${dateText(r.openingCheckedDate||dataset.verificationDate)}</span></div>
+    <div class="card-bottom">${link(r.sources[0],true,inquiry)}<span class="snapshot-status">${inquiry?'Guidelines':'Opening'} check: ${dateText(r.openingCheckedDate||dataset.verificationDate)}</span></div>
     <details class="details"><summary><span>Eligibility & sources</span><span aria-hidden="true" class="chevron">⌄</span></summary><div class="public-details"><h4>Eligibility and application route</h4><p>${esc(r.eligibility)}</p><h4>Official sources</h4><ul class="source-list">${r.sources.map(s=>`<li>${link(s)}<span>Reviewed ${dateText(s.checked)}</span></li>`).join('')}</ul><p class="sources-note">These are dated source checks. Confirm current terms on the sponsor’s website.</p></div></details>
   </article>`;
 }
@@ -40,9 +41,9 @@ async function init(){
     if(!response.ok)throw new Error('Snapshot unavailable');
     dataset=await response.json();
     if(dataset.schemaVersion!=='public-1'||!Array.isArray(dataset.records)||dataset.verificationDate!=='2026-10-19')throw new Error('Unsupported snapshot');
-    if(dataset.records.some(r=>!/^O\d+$/.test(r.id)||!r.sources?.length||r.sources.some(s=>{const u=new URL(s.url);return u.protocol!=='https:'||u.username||u.password;})))throw new Error('Invalid record');
+    if(dataset.records.some(r=>!/^O\d+$/.test(r.id)||!r.sources?.length||(r.routeType!==undefined&&(r.routeType!=='inquiry'||!r.condition||!r.deadline.rolling||r.deadline.date!==null))||r.sources.some(s=>{const u=new URL(s.url);return u.protocol!=='https:'||u.username||u.password;})))throw new Error('Invalid record');
     const counts={all:dataset.records.length,dated:dataset.records.filter(r=>r.deadline.date).length,rolling:dataset.records.filter(r=>r.deadline.rolling).length};
-    $('#overview').textContent=`${counts.all} programs · open routes at the last check`;
+    $('#overview').textContent=`${counts.all} programs · dated calls and inquiry routes`;
     document.querySelectorAll('[data-count]').forEach(e=>e.textContent=counts[e.dataset.count]);
     [...new Set(dataset.records.map(r=>r.topic))].sort().forEach(t=>$('#topic').append(new Option(t,t)));
     document.querySelectorAll('[data-timing]').forEach(b=>b.addEventListener('click',()=>{state.timing=b.dataset.timing;limit=PAGE_SIZE;render();}));

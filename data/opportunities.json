@@ -5,6 +5,45 @@
   "updatedDate": "2026-10-20",
   "records": [
     {
+      "id": "O97",
+      "sponsor": "Albert and Margaret Alkek Foundation",
+      "program": "Texas-serving charitable projects — rolling inquiry",
+      "topic": "Texas communities",
+      "summary": "Support for charitable, scientific and educational projects benefiting Texas.",
+      "funding": "Amount and duration are not specified. Funds available for unsolicited requests are limited.",
+      "match": "Not specified in the published guidelines.",
+      "eligibility": "The applicant must be an IRS-recognized public charity serving Texas. University eligibility is not confirmed. Usually only one application per organization in twelve months; previous grantees must submit a full grant report before a subsequent proposal is considered. A one- to two-page inquiry should describe the organization, project, total funding needed and amount requested.",
+      "condition": "Requires TTU Advancement clearance and applicant-entity/public-charity eligibility verification. Check previous applications, pending requests and prior grant reports before submitting.",
+      "routeType": "inquiry",
+      "deadline": {
+        "date": null,
+        "stage": "1–2-page letter of inquiry by USPS; no email applications",
+        "kind": "official",
+        "label": "Official rolling inquiry",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "fundingCheckedDate": "2026-10-20",
+      "openingCheckedDate": "2026-10-20",
+      "notes": [
+        "Requests are accepted year-round without a submission deadline. Further information is requested only if the foundation is interested."
+      ],
+      "sources": [
+        {
+          "title": "Alkek Foundation grant guidelines and postal inquiry instructions",
+          "url": "https://alkek.org/grantguidelines.htm",
+          "checked": "2026-10-20"
+        },
+        {
+          "title": "TTU OP 02.02 — coordination of private philanthropic requests",
+          "url": "https://www.depts.ttu.edu/opmanual/OP02.02.php",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
       "id": "O14",
       "sponsor": "Alfred P. Sloan Foundation",
       "program": "Energy and Environment LOI route",
@@ -270,6 +309,42 @@
         {
           "title": "Moody Foundation grant eligibility and FAQ",
           "url": "https://moodyf.org/grant-faq/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "O96",
+      "sponsor": "National Bureau of Economic Research (NBER)",
+      "program": "Health and Aging Emerging Scholar Pilot Proposals 2027–2029",
+      "topic": "Aging",
+      "summary": "Pilot research on health and aging, with mentoring and preparation for a subsequent NIH application.",
+      "funding": "Anticipated $30,000–$50,000 in direct costs TOTAL for September 2027–August 2029; not an annual amount.",
+      "match": "Not established by this review.",
+      "eligibility": "Applicants must be at a US university, located in the US, and qualify as NIH New OR Early-Stage Investigators. The ten-year career window applies to Early-Stage status, not all New Investigators. NBER affiliation is unnecessary. Recipients commit to mentoring, seminars and an eventual NIH K- or R-series application.",
+      "condition": "PI eligibility unverified. Confirm NIH New or Early-Stage Investigator status and the project's health-and-aging fit before preparing the letter of intent.",
+      "deadline": {
+        "date": "2027-01-31",
+        "stage": "Letter of intent",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "23:59 Eastern",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "fundingCheckedDate": "2026-10-20",
+      "openingCheckedDate": "2026-10-20",
+      "notes": [],
+      "sources": [
+        {
+          "title": "NBER Emerging Scholar Pilot Proposals — official call",
+          "url": "https://www.nber.org/calls-papers-and-proposals/emerging-scholar-pilot-proposals",
+          "checked": "2026-10-20"
+        },
+        {
+          "title": "NBER calls and proposals — deadline listing",
+          "url": "https://www.nber.org/calls-papers-and-proposals",
           "checked": "2026-10-20"
         }
       ]
