@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CECREH funding opportunities. Official submission routes checked October 19, 2026; funding snapshot October 11, 2026.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>CECREH · Funding opportunities</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#opportunities">Skip to opportunities</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="./" aria-label="CECREH funding dashboard home"><span class="brand-mark" aria-hidden="true">C</span><span>CECREH<span class="brand-sub">Research funding</span></span></a>
+    <span class="access-label">Public information <span class="header-divider">/</span> Read only</span>
+  </div></header>
+  <main class="shell">
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow">CECREH RESEARCH & PARTNERSHIPS</p><h1 id="page-title">Funding opportunities</h1><p class="intro-copy">Selected programs and official application routes.<br>Check the sponsor’s current requirements before applying.</p></div>
+      <aside class="snapshot"><span class="snapshot-label">LAST OPENING CHECK</span><strong>October 19, 2026</strong><p>Funding snapshot: October 11, 2026.<br>These dates do not update automatically.</p></aside>
+    </section>
+    <section id="opportunities" class="register" aria-labelledby="register-title">
+      <div class="section-top"><h2 id="register-title">Browse funding programs</h2><p id="overview">Loading the dated snapshot…</p></div>
+      <div class="status-tabs public-tabs" role="group" aria-label="Submission timing filters">
+        <button type="button" data-timing="all" aria-pressed="true">All programs <span data-count="all">—</span></button>
+        <button type="button" data-timing="dated" aria-pressed="false">Dated deadline <span data-count="dated">—</span></button>
+        <button type="button" data-timing="rolling" aria-pressed="false">Rolling / ongoing <span data-count="rolling">—</span></button>
+      </div>
+      <div class="filters">
+        <div class="search-field"><label for="search">Search opportunities</label><div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><input id="search" type="search" placeholder="Program, sponsor, topic or ID" autocomplete="off"></div></div>
+        <div><label for="topic">Research topic</label><select id="topic"><option value="all">All topics</option></select></div>
+        <div><label for="sort">Sort by</label><select id="sort"><option value="sponsor">Sponsor A–Z</option><option value="date">Submission date</option></select></div>
+      </div>
+      <div class="results-toolbar"><p id="result-count" role="status" aria-live="polite" aria-atomic="true">Loading opportunities…</p><button id="reset" class="text-button" type="button" hidden>Reset filters</button></div>
+      <div id="results" class="results" aria-busy="true"></div>
+      <div id="empty" class="empty" hidden><h3>No matching opportunities</h3><p>Try another topic or a broader search.</p><button class="primary-button" id="empty-reset" type="button">Reset filters</button></div>
+      <div class="load-more"><button id="more" class="secondary-button" type="button" hidden>Show more opportunities</button></div>
+      <div id="error" class="error" role="alert" hidden><h3>The snapshot could not load</h3><p>Refresh the page to try again.</p></div>
+    </section>
+    <footer><span>CECREH funding register · Read only</span><p>Opening routes were reviewed October 19, 2026. Funding and match information retain the October 11, 2026 snapshot. An open route does not establish applicant eligibility. Official sponsor instructions govern.</p><p class="public-notice">This dashboard has no sign-in, cookies or third-party analytics. Links open official sponsor or funding-source pages.</p></footer>
+  </main>
+  <noscript><p class="noscript">Enable JavaScript to search and filter the funding snapshot.</p></noscript>
+</body>
+</html>

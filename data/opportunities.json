@@ -1,0 +1,542 @@
+{
+  "schemaVersion": "public-1",
+  "snapshotDate": "2026-10-11",
+  "verificationDate": "2026-10-19",
+  "records": [
+    {
+      "id": "O14",
+      "sponsor": "Alfred P. Sloan Foundation",
+      "program": "Energy and Environment LOI route",
+      "topic": "Energy",
+      "summary": "Interdisciplinary social-science research on US energy systems.",
+      "funding": "Project-specific; no verified general cap",
+      "match": "Unverified",
+      "eligibility": "Primarily US energy systems; balanced evidence-based analysis, no policy advocacy; full proposal requires subsequent invitation.",
+      "deadline": {
+        "date": null,
+        "stage": "Unsolicited LOI",
+        "kind": "official",
+        "label": "Official rolling route",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "Sloan Energy and Environment LOI route",
+          "url": "https://sloan.org/programs/research/energy-and-environment",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "O15",
+      "sponsor": "Alfred P. Sloan Foundation",
+      "program": "Exploratory Grantmaking in Technology",
+      "topic": "Computing",
+      "summary": "Exploratory research at the intersection of technology and science.",
+      "funding": "Amount and duration unverified",
+      "match": "Unverified",
+      "eligibility": "Research/technology intersection, emerging areas with scarce other funding; AI and automation in science.",
+      "deadline": {
+        "date": null,
+        "stage": "Unsolicited LOI",
+        "kind": "official",
+        "label": "Official rolling route",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "Sloan Exploratory Grantmaking in Technology",
+          "url": "https://sloan.org/programs/digital-technology/exploratory-grantmaking-in-technology",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "O09",
+      "sponsor": "Meadows Foundation",
+      "program": "Texas program/project support",
+      "topic": "Texas communities",
+      "summary": "Program and project support benefiting communities in Texas.",
+      "funding": "No fixed size verified; submit 4–5 months before funds needed",
+      "match": "Unverified",
+      "eligibility": "501(c)(3) public charities or public entities; project must benefit Texas.",
+      "deadline": {
+        "date": null,
+        "stage": "Full application",
+        "kind": "official",
+        "label": "Official rolling route",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "Meadows Foundation Texas program/project support",
+          "url": "https://www.mfi.org/how-to-apply/",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "FAQs - The Meadows Foundation",
+          "url": "https://www.mfi.org/how-to-apply/faqs/",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "O03",
+      "sponsor": "NOAA / NCCOS",
+      "program": "Advancing coastal flood protection",
+      "topic": "Coastal resilience",
+      "summary": "Coastal flood protection through partnerships, insurance products and sediment management.",
+      "funding": "Up to $500,000/year and $2,000,000 total; up to 4 years; appropriations contingent",
+      "match": "None",
+      "eligibility": "US higher education, nonprofits, state/local/tribal government, territories and businesses; regional users required. Full application due 2027-02-12; timely LOI mandatory.",
+      "deadline": {
+        "date": "2026-11-09",
+        "stage": "Required LOI",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "23:59 ET",
+        "rolling": false
+      },
+      "fullApplicationDate": "2027-02-12",
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "NOAA NCCOS Advancing coastal flood protection",
+          "url": "https://simpler.grants.gov/opportunity/d7849569-60f9-44bc-879c-d356b0460132",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Coastal flood protection · full notice (PDF)",
+          "url": "https://files.simpler.grants.gov/opportunities/d7849569-60f9-44bc-879c-d356b0460132/attachments/a969caf3-d7b0-414f-a0fa-b0daf0ab9bd6/NOAA-NOS-NCCOS-2026-32934.pdf",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Funding Opportunities - NCCOS - National Centers for Coastal Ocean Science",
+          "url": "https://coastalscience.noaa.gov/about/funding-opportunities/",
+          "checked": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "O01",
+      "sponsor": "NSF",
+      "program": "CMMI / Engineering for the Built Environment",
+      "topic": "Infrastructure",
+      "summary": "Foundational research on infrastructure and the built environment.",
+      "funding": "No fixed award cap or duration stated; budget and term proportional to scope",
+      "match": "No required match identified; voluntary committed cost sharing prohibited",
+      "eligibility": "Eligible NSF organizations; unaffiliated individuals excluded. EBE foundational infrastructure research.",
+      "deadline": {
+        "date": null,
+        "stage": "Full proposal",
+        "kind": "official",
+        "label": "Official rolling route",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "NSF CMMI / Engineering for the Built Environment",
+          "url": "https://www.nsf.gov/funding/opportunities/engineering-eng-civil-mechanical-manufacturing-innovation/nsf26-515/solicitation",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Engineering for the Built Environment (EBE)",
+          "url": "https://www.nsf.gov/funding/opportunities/ebe-engineering-built-environment",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Engineering (ENG): Civil, Mechanical, and Manufacturing Innovation (CMMI)",
+          "url": "https://www.nsf.gov/funding/opportunities/engineering-eng-civil-mechanical-manufacturing-innovation",
+          "checked": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "O06",
+      "sponsor": "NSF",
+      "program": "Future CoRe — HCC/CPS/RI",
+      "topic": "Computing",
+      "summary": "Foundational computing research, including human-centered computing, cyber-physical systems and robotics.",
+      "funding": "Up to $1 million; up to 4 years",
+      "match": "Unverified",
+      "eligibility": "Eligible US higher-education and nonprofit research institutions; program fit and submission limits apply.",
+      "deadline": {
+        "date": null,
+        "stage": "Full proposal",
+        "kind": "official",
+        "label": "Official rolling route",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [
+        "February and September dates are review targets, not submission deadlines."
+      ],
+      "sources": [
+        {
+          "title": "NSF Future CoRe / HCC/CPS/RI",
+          "url": "https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing/nsf25-543/solicitation",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Computer and Information Science and Engineering : Future Computing Research (Future CoRe)",
+          "url": "https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing",
+          "checked": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "O08",
+      "sponsor": "NSF",
+      "program": "Research Experiences for Undergraduates — Site",
+      "topic": "Education",
+      "summary": "Institutional research experiences for undergraduate students.",
+      "funding": "Site budget depends on participant/disciplinary design; do not assume a universal award cap",
+      "match": "Unverified",
+      "eligibility": "Institutional REU Site proposal, not a student application. Supported undergraduates must be US citizens/nationals/permanent residents.",
+      "deadline": {
+        "date": "2027-08-18",
+        "stage": "REU Site full proposal",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "17:00 submitting organization local time",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "NSF REU Site",
+          "url": "https://www.nsf.gov/funding/opportunities/reu-research-experiences-undergraduates",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Official search listing",
+          "url": "https://simpler.grants.gov/es/search?query=site+proposal",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Official opportunity / application package",
+          "url": "https://simpler.grants.gov/opportunity/19553c47-f333-4b57-b6c3-74f38305903f",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "O17",
+      "sponsor": "NSF",
+      "program": "Translation to Practice (TTP-T)",
+      "topic": "Research translation",
+      "summary": "Translation of research toward practical applications through the TTP-T track.",
+      "funding": "Up to $1.2M / 36 months",
+      "match": "Unverified",
+      "eligibility": "US accredited higher-education or nonprofit research organizations. PI tenured/tenure-track or primary full-time paid research/teaching appointment; one pending TTP proposal per PI/co-PI. I-Corps training requirement.",
+      "deadline": {
+        "date": "2026-11-17",
+        "stage": "TTP-T full proposal",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "17:00 submitting organization local time",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "NSF Translation to Practice (TTP-T)",
+          "url": "https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice/nsf25-540/solicitation",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Official opportunity / application package",
+          "url": "https://www.grants.gov/search-results-detail/359966?showPackages=1",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Official search listing",
+          "url": "https://simpler.grants.gov/search?query=25-540",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Official opportunity / application package",
+          "url": "https://simpler.grants.gov/opportunity/01db6b26-98f3-43cc-ba54-f38ee97aefdb",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "National Science Foundation Translation to Practice (NSF TTP)",
+          "url": "https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice",
+          "checked": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "O53",
+      "sponsor": "RRF Foundation for Aging",
+      "program": "Research Grants",
+      "topic": "Aging",
+      "summary": "Applied research directly benefiting adults age 60 and older.",
+      "funding": "No fixed minimum/maximum or uniform duration published; scope-based request. Do not use historical awards as a cap.",
+      "match": "No mandatory ratio located; identify all project income and pending support.",
+      "eligibility": "Nonprofit organizations; applied research directly benefiting adults 60+, nationally relevant in US or regionally relevant in Illinois. State universities eligible. Full proposal requires invitation.",
+      "deadline": {
+        "date": "2026-11-02",
+        "stage": "Eligibility quiz followed by LOI",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "17:00 America/Chicago",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "RRF Foundation for Aging Research Grants",
+          "url": "https://www.rrf.org/apply-for-a-grant/research-grants/",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "RRF grant FAQs",
+          "url": "https://www.rrf.org/apply-for-a-grant/application-info-tips/faqs/",
+          "checked": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "O02",
+      "sponsor": "Russell Sage Foundation",
+      "program": "Core Research Grants — Social, Political and Economic Inequality",
+      "topic": "Social science",
+      "summary": "US-focused research on social, political and economic inequality.",
+      "funding": "Latest October budget PDF: up to $200,000 direct + 15% F&A; generally 1–2 years. February terms must be reconfirmed.",
+      "match": "No general cash match stated; latest guidance expects institution to cover student tuition except approved exceptions",
+      "eligibility": "Doctorate normally required for all PIs/co-PIs; US-focused social science. Full proposal only by invitation after LOI.",
+      "deadline": {
+        "date": "2026-10-28",
+        "stage": "LOI",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "14:00 ET",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [
+        "Budget guidance differs across documents; confirm the applicable instructions with the foundation."
+      ],
+      "sources": [
+        {
+          "title": "Russell Sage Core Research Grants / SPEI",
+          "url": "https://www.russellsage.org/apply/application-deadlines",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Application Requirements",
+          "url": "https://www.russellsage.org/apply/info/requirements",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Eligibility",
+          "url": "https://www.russellsage.org/apply/info/eligibility",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "October 2026 budget guidelines (PDF)",
+          "url": "https://www.russellsage.org/sites/default/files/2026-10/rsf_budgetguidelines2027_10012026.pdf",
+          "checked": "2026-10-11"
+        },
+        {
+          "title": "Information for Applicants",
+          "url": "https://www.russellsage.org/apply/info",
+          "checked": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "O04",
+      "sponsor": "Russell Sage Foundation",
+      "program": "Margaret Olivia Sage (MOS) Grants",
+      "topic": "Social science",
+      "summary": "Multidisciplinary research on major societal challenges in the United States.",
+      "funding": "Up to $750,000 + 15% indirect costs over 3 years; possible renewal is not part of the base request",
+      "match": "No general match stated in announcement; confirm budget terms",
+      "eligibility": "Doctorate-holding PIs/co-PIs on multi/interdisciplinary teams; community partnerships count. US societal challenges. Full proposals invitation-only after LOI.",
+      "deadline": {
+        "date": "2026-12-01",
+        "stage": "LOI",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "14:00 ET",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": true,
+      "notes": [
+        "Opening was inferred from the sponsor’s published two-month rule; the application portal was not observed."
+      ],
+      "sources": [
+        {
+          "title": "Russell Sage Margaret Olivia Sage Grants",
+          "url": "https://www.russellsage.org/research/priorities/mos-grants/rfp-mos-grants",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Application Deadlines",
+          "url": "https://www.russellsage.org/apply/application-deadlines",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Application Requirements",
+          "url": "https://www.russellsage.org/apply/info/requirements",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Eligibility",
+          "url": "https://www.russellsage.org/apply/info/eligibility",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "New Margaret Olivia Sage Grants Competition",
+          "url": "https://www.russellsage.org/news/new-margaret-olivia-sage-grants-competition",
+          "checked": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "O54",
+      "sponsor": "Smith Richardson Foundation",
+      "program": "Domestic Public Policy",
+      "topic": "Public policy",
+      "summary": "Research and writing on domestic public-policy priorities.",
+      "funding": "No overall cap/standard duration established. Requests above $50,000 or multiyear go to board review; $50,000 is a review threshold, not an award ceiling.",
+      "match": "Not established",
+      "eligibility": "Research and writing on foundation public-policy priorities. Full proposals only after concept review invitation.",
+      "deadline": {
+        "date": null,
+        "stage": "Concept paper",
+        "kind": "official",
+        "label": "Official rolling route",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "Smith Richardson Domestic Public Policy",
+          "url": "https://www.srf.org/apply-now/",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Smith Richardson domestic public policy",
+          "url": "https://www.srf.org/programs/domestic-public-policy/",
+          "checked": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "O65",
+      "sponsor": "THECB",
+      "program": "THECB OER Grant Program, Round 5 Second RFA, 2026–2028",
+      "topic": "Education",
+      "summary": "Open educational resources grants for eligible Texas public higher-education institutions.",
+      "funding": "Award size and duration not established",
+      "match": "Not established",
+      "eligibility": "Texas public higher education institutions. Workforce category requires cross-institutional collaboration. One application per category; no resubmission of same previously awarded project.",
+      "deadline": {
+        "date": "2026-11-20",
+        "stage": "Full application through THECB GMS",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "17:00 CT",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [
+        "Only Round 5 Second RFA 1801 is covered. Funding and match requirements for this call remain unconfirmed."
+      ],
+      "sources": [
+        {
+          "title": "THECB OER Grant Program, Round 5 Second RFA, 2026–2028",
+          "url": "https://www.highered.texas.gov/grants/open-educational-resources-grant-program-oergp/",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "THECB institutional grant opportunities",
+          "url": "https://www.highered.texas.gov/institutional-grant-opportunities/",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Official RFA 1801",
+          "url": "https://reportcenter.highered.texas.gov/contracts/rfo-rfp-rfq-rfa/oergp-50/open-educational-resources-grant-program-rfa1801-2026-28/",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "O33",
+      "sponsor": "USGS",
+      "program": "WRRA National Competitive 104g General",
+      "topic": "Water research",
+      "summary": "Water-resources research submitted through the designated state research institute.",
+      "funding": "Preliminary listing: up to $120,000; confirm the full notice for current terms.",
+      "match": "Unverified",
+      "eligibility": "University researchers apply through designated Water Resources Research Institute; institute internal deadlines may precede federal close.",
+      "deadline": {
+        "date": "2026-11-12",
+        "stage": "Full application through designated state WRRI",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "17:00 America/New_York",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "notes": [],
+      "sources": [
+        {
+          "title": "USGS WRRA National Competitive 104g General",
+          "url": "https://www.usgs.gov/programs/water-resources-research-act-program",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Supporting official source · water.usgs.gov",
+          "url": "https://water.usgs.gov/wrri/index.php",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Official opportunity / application package",
+          "url": "https://grants.gov/search-results-detail/364012",
+          "checked": "2026-10-19"
+        },
+        {
+          "title": "Supporting official source · wrrc.arizona.edu",
+          "url": "https://wrrc.arizona.edu/opportunities/wrrc-grants-internships/104g-national-competitive-grants",
+          "checked": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}
