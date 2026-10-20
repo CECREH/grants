@@ -2,6 +2,7 @@
   "schemaVersion": "public-1",
   "snapshotDate": "2026-10-11",
   "verificationDate": "2026-10-19",
+  "updatedDate": "2026-10-20",
   "records": [
     {
       "id": "O14",
@@ -60,6 +61,149 @@
       ]
     },
     {
+      "id": "O94",
+      "sponsor": "Charles Pankow Foundation",
+      "program": "Research Need Statements — building design and construction",
+      "topic": "Infrastructure",
+      "summary": "Applied research addressing industry needs in building design and construction.",
+      "funding": "Project-specific amount and duration; submit an estimated funding request and research schedule.",
+      "match": "Identify committed and expected co-funding. No fixed matching percentage established by the current linked RNS guidelines.",
+      "eligibility": "Awards are limited to qualified nonprofit entities. Identify the investigator and research institution, industry champions and practitioner support. Research products must be publicly available without restriction or cost. A full proposal follows only if the foundation requests one.",
+      "condition": "The applicant entity and applied construction topic must qualify. An industry champion, dissemination plan and co-funding information are needed.",
+      "deadline": {
+        "date": null,
+        "stage": "Research Need Statement, maximum three pages",
+        "kind": "official",
+        "label": "Official rolling route",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "fundingCheckedDate": "2026-10-20",
+      "openingCheckedDate": "2026-10-20",
+      "notes": [],
+      "sources": [
+        {
+          "title": "Charles Pankow Foundation grant application process",
+          "url": "https://pankowfoundation.org/join-us/apply-for-grants/",
+          "checked": "2026-10-20"
+        },
+        {
+          "title": "Research Need Statement guidelines linked by the current application page",
+          "url": "https://pankowfoundation.org/site/assets/files/1162/rns_guidelines_11_15_23.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "O92",
+      "sponsor": "Economic Development Administration",
+      "program": "FY2025 Disaster Supplemental — Readiness Path",
+      "topic": "Disaster recovery",
+      "summary": "Planning, capacity building and project preparation for economic recovery in disaster-affected communities.",
+      "funding": "Expected awards of $250,000–$500,000. Non-construction terms generally 12–18 months; Readiness projects may be shorter.",
+      "match": "Generally up to 80% federal funding, with a 20% nonfederal share. EDA may set a different rate under the notice.",
+      "eligibility": "Institutions of higher education may apply. Work must primarily benefit an area designated for a qualifying 2023 or 2024 disaster and directly engage its stakeholders. Primarily residential projects are generally ineligible. Apply through EDA EDGE.",
+      "condition": "Requires an eligible disaster area and an economic-recovery purpose. University eligibility alone does not establish project eligibility.",
+      "deadline": {
+        "date": null,
+        "stage": "Readiness application through EDA EDGE",
+        "kind": "official",
+        "label": "Official rolling route",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "fundingCheckedDate": "2026-10-20",
+      "openingCheckedDate": "2026-10-20",
+      "notes": [
+        "Readiness remains rolling until the notice is replaced, cancelled or funds are exhausted. This entry excludes the closed Industry Transformation Path."
+      ],
+      "sources": [
+        {
+          "title": "EDA FY2025 Disaster Supplemental notice — Readiness Path",
+          "url": "https://www.eda.gov/strategic-initiatives/disaster-recovery/supplemental/2025/fy2025-disaster-supplemental-notice-of-funding-opportunity",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "O95",
+      "sponsor": "HUD / Fair Housing and Equal Opportunity",
+      "program": "FHIP Education and Outreach — General Component",
+      "topic": "Housing outreach",
+      "summary": "Local and regional education and outreach to prevent discriminatory housing practices.",
+      "funding": "$175,000–$250,000 for the General Component; 12–18 months, with the final term negotiated by HUD.",
+      "match": "No required match. Any voluntarily proposed match becomes binding if awarded.",
+      "eligibility": "Eligible leads include public or private entities formulating or carrying out fair-housing programs. A university or partner must demonstrate this qualification and meet all notice requirements. Individuals are ineligible. This is an outreach program, not a general research award.",
+      "condition": "The lead entity must qualify through fair-housing work. Funding cannot exceed 50% of the recipient organization’s annual operating budget.",
+      "deadline": {
+        "date": "2026-11-02",
+        "stage": "General Component full application — OFH-2600-DC-021A",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "23:59 ET",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "fundingCheckedDate": "2026-10-20",
+      "openingCheckedDate": "2026-10-20",
+      "notes": [],
+      "sources": [
+        {
+          "title": "HUD FHIP Education and Outreach — official opportunity",
+          "url": "https://simpler.grants.gov/opportunity/224cb740-46ae-4eab-bdb5-d858638ee591",
+          "checked": "2026-10-20"
+        },
+        {
+          "title": "Official FHIP notice — OFH-2600-DC-021A",
+          "url": "https://files.simpler.grants.gov/opportunities/224cb740-46ae-4eab-bdb5-d858638ee591/attachments/32726c8a-d8e6-4d05-80d5-6ede601e13c4/Foa_Content_of_OFH-2600-DC-021A.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "O91",
+      "sponsor": "HUD / Policy Development and Research",
+      "program": "Research Partnerships — PDR-2600-DC-0USP",
+      "topic": "Housing research",
+      "summary": "Independently conceived research on US housing and community development.",
+      "funding": "No individual award minimum or maximum; approximately $2 million program pool. Project period negotiated with HUD.",
+      "match": "At least 50% of total project cost (1:1 with HUD funds). Properly documented in-kind contributions may count.",
+      "eligibility": "Colleges and universities are eligible organizational applicants. Submit a full research plan conceived independently of HUD solicitations; it must not duplicate federally funded work or repurpose another HUD competition proposal.",
+      "condition": "University route requires the full match and independently developed housing research. Individual applications are ineligible.",
+      "deadline": {
+        "date": "2027-06-09",
+        "stage": "Rolling full proposals until closing date or funds are exhausted",
+        "kind": "official",
+        "label": "Rolling with official closing date",
+        "time": "23:59:59 ET",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "fundingCheckedDate": "2026-10-20",
+      "openingCheckedDate": "2026-10-20",
+      "notes": [
+        "Awards are made as proposals are reviewed; funding may be exhausted before the closing date."
+      ],
+      "sources": [
+        {
+          "title": "HUD Research Partnerships — Grants.gov",
+          "url": "https://grants.gov/search-results-detail/362364",
+          "checked": "2026-10-20"
+        },
+        {
+          "title": "Official Research Partnerships notice — PDR-2600-DC-0USP",
+          "url": "https://files.simpler.grants.gov/opportunities/144a89d3-d417-4a72-9bca-d361652bd993/attachments/ffa28cf8-420a-42b6-9cd5-c2c1fd176291/Authority_to_Accept_Unsolicited_Proposals_for_Research_Partnerships_Notice_of_Intent_NOI_PDR-2600-DC-0USP_06.9.2026.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
       "id": "O09",
       "sponsor": "Meadows Foundation",
       "program": "Texas program/project support",
@@ -89,6 +233,44 @@
           "title": "FAQs - The Meadows Foundation",
           "url": "https://www.mfi.org/how-to-apply/faqs/",
           "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "O72",
+      "sponsor": "Moody Foundation",
+      "program": "General / regional grant inquiry",
+      "topic": "Texas communities",
+      "summary": "Texas community benefit through education, social services, health, family well-being and the arts.",
+      "funding": "Award amount and duration are project-specific; no general limit stated. Inquiry-to-decision review may take six months.",
+      "match": "No general matching requirement specified in the reviewed process or FAQ.",
+      "eligibility": "Public universities and other governmental/public entities are explicitly eligible. Funds must be spent in Texas. Submit an initial inquiry; full applications require further consideration by the foundation. Community impact and alignment with foundation priorities are essential.",
+      "condition": "Coordinate institution-wide before inquiry: only one inquiry at a time and usually one active grant. A research project must establish community benefit.",
+      "deadline": {
+        "date": null,
+        "stage": "General grant inquiry, followed by invitation to apply",
+        "kind": "official",
+        "label": "Official rolling route",
+        "time": "",
+        "rolling": true
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "fundingCheckedDate": "2026-10-20",
+      "openingCheckedDate": "2026-10-20",
+      "notes": [
+        "This entry covers general/regional grants. The separate M-Pact Fund has its own application process."
+      ],
+      "sources": [
+        {
+          "title": "Moody Foundation general application process",
+          "url": "https://moodyf.org/application-process/",
+          "checked": "2026-10-20"
+        },
+        {
+          "title": "Moody Foundation grant eligibility and FAQ",
+          "url": "https://moodyf.org/grant-faq/",
+          "checked": "2026-10-20"
         }
       ]
     },
@@ -492,6 +674,39 @@
           "title": "Official RFA 1801",
           "url": "https://reportcenter.highered.texas.gov/contracts/rfo-rfp-rfq-rfa/oergp-50/open-educational-resources-grant-program-rfa1801-2026-28/",
           "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "O93",
+      "sponsor": "University of Minnesota / Life Course Center",
+      "program": "Emerging Scholar Program 2027–2029",
+      "topic": "Aging",
+      "summary": "Mentored pilot research and NIA proposal development on aging, health and life-course processes.",
+      "funding": "Up to $55,000 in total costs over two years, September 2027–August 2029.",
+      "match": "Not specified in the current call.",
+      "eligibility": "External faculty, postdocs and research scientists may apply with institutional PI eligibility and NIH New or Early Stage Investigator status. Graduate students and prior NIH R01 PIs are ineligible. Mentoring, training and a subsequent NIA proposal are required; membership and specified data sources receive preference.",
+      "condition": "Investigator eligibility must be confirmed. The call uses both broader NIH R-level and narrower R01 exclusion wording; applicants with prior R-level funding should clarify eligibility.",
+      "deadline": {
+        "date": "2026-11-29",
+        "stage": "Required letter of intent",
+        "kind": "official",
+        "label": "Official deadline",
+        "time": "17:00 CST",
+        "rolling": false
+      },
+      "fullApplicationDate": null,
+      "openingInferred": false,
+      "fundingCheckedDate": "2026-10-20",
+      "openingCheckedDate": "2026-10-20",
+      "notes": [
+        "Full proposals are by invitation, due in mid-January; no exact full-proposal date is published in the call."
+      ],
+      "sources": [
+        {
+          "title": "Life Course Center Emerging Scholar call 2027–2029",
+          "url": "https://lcc.umn.edu/loi-2026",
+          "checked": "2026-10-20"
         }
       ]
     },

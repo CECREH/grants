@@ -12,12 +12,13 @@ function card(r){
   return `<article class="opportunity" id="${r.id}" data-id="${r.id}" aria-labelledby="title-${r.id}">
     <div class="card-main">
       <div class="program-cell"><div class="record-meta"><span class="public-topic">${esc(r.topic)}</span><span class="record-id">${r.id}</span></div><p class="sponsor">${esc(r.sponsor)}</p><h3 id="title-${r.id}">${esc(r.program)}</h3><p class="fit">${esc(r.summary)}</p></div>
-      <div class="funding-cell"><h4>Funding & term <span class="field-date">· Oct 11</span></h4><p>${esc(r.funding)}</p><h4 class="match-label">Match / cost share</h4><p class="match-text">${esc(r.match)}</p></div>
+      <div class="funding-cell"><h4>Funding & term <span class="field-date">· ${dateText(r.fundingCheckedDate||dataset.snapshotDate)}</span></h4><p>${esc(r.funding)}</p><h4 class="match-label">Match / cost share</h4><p class="match-text">${esc(r.match)}</p></div>
       <div class="date-cell"><h4>Submission route at last check</h4><div class="deadline-item"><span class="date-basis ${d.kind}">${esc(d.label)}</span><strong class="deadline-date">${d.rolling&&!d.date?'Rolling / ongoing':dateText(d.date)}</strong><span class="deadline-stage">${esc(d.stage)}</span>${d.time?`<span class="deadline-time">${esc(d.time)}</span>`:''}</div>${r.fullApplicationDate?`<p class="full-date">Full application: ${dateText(r.fullApplicationDate)}</p>`:''}</div>
     </div>
+    ${r.condition?`<p class="call-note conditional-note"><strong>Conditional route.</strong> ${esc(r.condition)}</p>`:''}
     ${r.notes.map(note=>`<p class="call-note">${esc(note)}</p>`).join('')}
-    <div class="card-bottom">${link(r.sources[0],true)}<span class="snapshot-status">Opening check: Oct 19, 2026</span></div>
-    <details class="details"><summary><span>Eligibility & sources</span><span aria-hidden="true" class="chevron">⌄</span></summary><div class="public-details"><h4>Eligibility and application route</h4><p>${esc(r.eligibility)}</p><h4>Official sources</h4><ul class="source-list">${r.sources.map(s=>`<li>${link(s)}<span>Reviewed ${dateText(s.checked)}</span></li>`).join('')}</ul><p class="sources-note">Source dates are retained from the original review. Confirm current terms on the sponsor’s website.</p></div></details>
+    <div class="card-bottom">${link(r.sources[0],true)}<span class="snapshot-status">Opening check: ${dateText(r.openingCheckedDate||dataset.verificationDate)}</span></div>
+    <details class="details"><summary><span>Eligibility & sources</span><span aria-hidden="true" class="chevron">⌄</span></summary><div class="public-details"><h4>Eligibility and application route</h4><p>${esc(r.eligibility)}</p><h4>Official sources</h4><ul class="source-list">${r.sources.map(s=>`<li>${link(s)}<span>Reviewed ${dateText(s.checked)}</span></li>`).join('')}</ul><p class="sources-note">These are dated source checks. Confirm current terms on the sponsor’s website.</p></div></details>
   </article>`;
 }
 function render({append=false}={}){
